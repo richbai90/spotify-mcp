@@ -1,4 +1,9 @@
 // Enhanced debug version of the getAccessToken function
+
+// Token management
+let accessToken: string = "";
+let tokenExpiryTime: number = 0;
+
 export async function getAccessToken(): Promise<string> {
   // If token is still valid, return it
   if (accessToken && tokenExpiryTime > Date.now()) {
