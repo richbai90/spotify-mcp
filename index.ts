@@ -34,7 +34,7 @@ import {
 } from "./src/spotify-api.js";
 
 // Check for required environment variables
-function validateEnvVar(name) {
+function validateEnvVar(name: string) {
   const value = process.env[name];
   if (!value) {
     console.error(`Error: ${name} environment variable is required but not set`);
