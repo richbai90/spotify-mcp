@@ -81,7 +81,7 @@ Add the following to your server configuration
         "-e",
         "SPOTIFY_CLIENT_SECRET=your-client-secret",
         "-e",
-        "SPOTIFY_REFRESH_TOKEN=your-refresh-token,
+        "SPOTIFY_REFRESH_TOKEN=your-refresh-token",
         "mcp/spotify"
       ]
     }
@@ -89,7 +89,7 @@ Add the following to your server configuration
 }
 ```
 
-```
+## Prompting
 
 Once the MCP server is running, Claude can utilize it to:
 
